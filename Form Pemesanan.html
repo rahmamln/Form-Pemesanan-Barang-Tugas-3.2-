@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+    <meta charset="UTF-8">
+    <title>Form Pemesanan (Tugas 3.2)</title>
+    <head>
+    </head>
+    <body>
+        <fieldset style="background-color: tan;">
+        <table border="0" width="100%">       
+            <tr>
+                <td width="15%"> Home | </td> 
+                <td> Generate Link |</td>
+                <td> Transaction History |</td>
+                <td width="25%"> Policy |</td>
+                <td > Logout |</td>        
+            </tr>
+        </table>
+        </fieldset>
+
+        <form action="">
+        <fieldset>
+        <table border="0" width="100%">
+            <tr> 
+                <br>
+                <td width="25%" ><img src="Image/tas.jfif" width="280" height="260" ></td>
+                <td width="5%" >Tittle Here</td>
+                <td>:</td>
+                <td><input type="text" value="Tas Coach" size="65%" name="Tittle" id="Tittle">
+                    <label for="Tittle"></label></td> 
+           </tr>
+           
+            <tr>   
+                <td></td>
+                <td>Description</td>
+                <td>:</td>
+                <td><textarea name="Description" id="" cols="61" rows="4"></textarea></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td width="9%" >Account Number</td>
+                <td width="2%" >:</td>
+                <td><input type="text" value="625-2145-327-8" size="65%" name="number" id="numberr">
+                    <label for="number"></label></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Bank</td>
+                <td>:</td>
+                <td><input type="text" list="bank" name="bank">                   
+                    <datalist id="bank">
+                        <option value="BNI"></option>
+                        <option value="MANDIRI"></option>
+                        <option value="BCA" aria-checked="false"></option>
+                        <option value="BSI"></option>
+                </datalist></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td width="9%" >Account Holder</td>
+                <td width="2%" >:</td>
+                <td><input type="text" value="Name Here" size="65%" name="number" id="numberr">
+                    <label for="number"></label></td>
+            </tr>
+    
+            <tr>
+                <td></td>
+                <td>Transaction</td>
+                <td>:</td>
+                    <td><select name="jumlah">
+                        <option value="1">1</option> 
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option> 
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>     
+                    </select> 
+                    </td>
+            <tr>  
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>*if the transaction is for 3 person, choose 3 from the drop-down list</td>
+            </tr> 
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><form action="">
+                    <input type="checkbox" id="phone" name="phone" value="phone">
+                    <label for="phone">Send to mobile phone</label><br>
+                    <input type="checkbox" id="email" name="email" value="email">
+                    <label for="email">Send to email</label><br>
+                </form></td>
+            </tr>
+
+            <tr> 
+                <td></td>
+                <td>Send to Mobile Phone</td>
+                <td>:</td>
+                <td><input type="text" value="088214532782" name="mobilephone" id="mobilephone">
+                    <label for="mobilephone"></label></td>
+            </tr> 
+
+            <tr>
+                <td></td>
+                <td>Send to Email</td>
+                <td>:</td>
+                <td><input type="text" value="rmaulina25@gmail.com" name="mobilephone" id="mobilephone">
+                    <label for="mobilephone"></label></td>
+            </tr>
+
+            <form action="" target="_blank" method="post" >
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                       <p ALIGN="LEFT">
+                           <button style="width: 50%; height: 20px; background-color: tan;">Checkout</button></P>
+                    </td>
+                </tr> 
+            </form>
+        </table>
+        </fieldset>
+        </form>
+            
+    </body>
+
+
+</html>
